@@ -5,3 +5,7 @@
 
 This is the text file caretyed manually in github. This is the new file 
 and we can wirte and commit anything we want.
+
+ssh-keygen -t ed25519 -C "mailtosanjib.kumar@gmail.com"
+ssh-add c:/Users/mailt/.ssh/id_ed25519
+ssh -T git@github.com
